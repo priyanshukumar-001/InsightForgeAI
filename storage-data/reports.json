@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rep-1793181560267-686ef3",
+    "title": "Comprehensive Analytics Report: insightforge_sample_sales (Cleaned) (Cleaned)",
+    "datasetId": "ds-clean-1793181518595-5f7fac",
+    "datasetName": "insightforge_sample_sales (Cleaned) (Cleaned)",
+    "htmlPath": "D:\\MIni Project 3rd Year\\storage-data\\generated-reports\\rep-1793181560267-686ef3.html",
+    "mdPath": "D:\\MIni Project 3rd Year\\storage-data\\generated-reports\\rep-1793181560267-686ef3.md",
+    "summary": "Report generated for insightforge_sample_sales (Cleaned) (Cleaned) (22 rows, score 100/100)",
+    "status": "completed",
+    "createdAt": "2026-10-28T09:59:20.317Z",
+    "updatedAt": "2026-10-28T09:59:20.317Z"
+  },
+  {
+    "id": "rep-1793179768026-b0a022",
+    "title": "Comprehensive Analytics Report: Telecom Customer Churn",
+    "datasetId": "sample-churn-02",
+    "datasetName": "Telecom Customer Churn",
+    "htmlPath": "D:\\MIni Project 3rd Year\\storage-data\\generated-reports\\rep-1793179768026-b0a022.html",
+    "mdPath": "D:\\MIni Project 3rd Year\\storage-data\\generated-reports\\rep-1793179768026-b0a022.md",
+    "summary": "Report generated for Telecom Customer Churn (20 rows, score 100/100)",
+    "status": "completed",
+    "createdAt": "2026-10-28T09:29:28.068Z",
+    "updatedAt": "2026-10-28T09:29:28.068Z"
+  }
+]

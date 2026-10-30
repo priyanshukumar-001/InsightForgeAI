@@ -1,0 +1,2050 @@
+[
+  {
+    "id": "ds-1793270007502-9fbf0e1f",
+    "name": "InsightForge_Dirty_Ecommerce_Stress_Test",
+    "filename": "InsightForge_Dirty_Ecommerce_Stress_Test.csv",
+    "filePath": "D:\\MIni Project 3rd Year\\private-uploads\\ds-1793270007502-9fbf0e1f-InsightForge_Dirty_Ecommerce_Stress_Test.csv",
+    "fileSize": 7942414,
+    "mimeType": "text/csv",
+    "isSample": false,
+    "status": "ready",
+    "profile": {
+      "rowCount": 52300,
+      "columnCount": 21,
+      "duplicateRows": 1716,
+      "repeatedIds": 2300,
+      "primaryIdColumn": "order_id",
+      "healthScore": 97,
+      "typeCounts": {
+        "numeric": 9,
+        "categorical": 10,
+        "datetime": 1,
+        "boolean": 0,
+        "text": 1
+      },
+      "columns": [
+        {
+          "name": "order_id",
+          "inferredType": "text",
+          "pandasType": "object",
+          "nonNullCount": 52300,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 50000,
+          "sampleValues": [
+            "ORD-047127",
+            "ORD-015521",
+            "ORD-034983"
+          ]
+        },
+        {
+          "name": "order_date",
+          "inferredType": "datetime",
+          "pandasType": "object",
+          "nonNullCount": 51779,
+          "missingCount": 521,
+          "missingPercentage": 1,
+          "uniqueCount": 2816,
+          "sampleValues": [
+            "2023-04-25",
+            "2026-03-21",
+            "2026-09-11"
+          ]
+        },
+        {
+          "name": "customer_id",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 52300,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 11829,
+          "sampleValues": [
+            "CUST-07152",
+            "CUST-07962",
+            "CUST-10656"
+          ]
+        },
+        {
+          "name": "customer_age",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 50460,
+          "missingCount": 1840,
+          "missingPercentage": 3.52,
+          "uniqueCount": 62,
+          "sampleValues": [
+            61,
+            45,
+            47
+          ]
+        },
+        {
+          "name": "gender",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 50995,
+          "missingCount": 1305,
+          "missingPercentage": 2.5,
+          "uniqueCount": 8,
+          "sampleValues": [
+            "Non-binary",
+            "Female",
+            "Male"
+          ]
+        },
+        {
+          "name": "city",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 50200,
+          "missingCount": 2100,
+          "missingPercentage": 4.02,
+          "uniqueCount": 30,
+          "sampleValues": [
+            "Mumbai",
+            "Bengaluru",
+            "Chennai"
+          ]
+        },
+        {
+          "name": "region",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 51254,
+          "missingCount": 1046,
+          "missingPercentage": 2,
+          "uniqueCount": 9,
+          "sampleValues": [
+            "South",
+            "Central",
+            "Central"
+          ]
+        },
+        {
+          "name": "category",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 51514,
+          "missingCount": 786,
+          "missingPercentage": 1.5,
+          "uniqueCount": 11,
+          "sampleValues": [
+            "Home & Kitchen",
+            "Fashion",
+            "Books"
+          ]
+        },
+        {
+          "name": "product",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 51251,
+          "missingCount": 1049,
+          "missingPercentage": 2.01,
+          "uniqueCount": 35,
+          "sampleValues": [
+            "Desk Lamp",
+            "Jacket",
+            "Cookbook"
+          ]
+        },
+        {
+          "name": "quantity",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 52300,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 11,
+          "sampleValues": [
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "name": "unit_price",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 50988,
+          "missingCount": 1312,
+          "missingPercentage": 2.51,
+          "uniqueCount": 27620,
+          "sampleValues": [
+            292.72,
+            541.76,
+            21.28
+          ]
+        },
+        {
+          "name": "discount_pct",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 50729,
+          "missingCount": 1571,
+          "missingPercentage": 3,
+          "uniqueCount": 10,
+          "sampleValues": [
+            25,
+            15,
+            20
+          ]
+        },
+        {
+          "name": "revenue",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 51002,
+          "missingCount": 1298,
+          "missingPercentage": 2.48,
+          "uniqueCount": 40253,
+          "sampleValues": [
+            658.62,
+            2302.48,
+            102.14
+          ]
+        },
+        {
+          "name": "cost",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 50726,
+          "missingCount": 1574,
+          "missingPercentage": 3.01,
+          "uniqueCount": 37995,
+          "sampleValues": [
+            604.03,
+            1414.66,
+            102.54
+          ]
+        },
+        {
+          "name": "profit",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 50745,
+          "missingCount": 1555,
+          "missingPercentage": 2.97,
+          "uniqueCount": 29814,
+          "sampleValues": [
+            54.59,
+            887.82,
+            -0.4
+          ]
+        },
+        {
+          "name": "payment_method",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 50488,
+          "missingCount": 1812,
+          "missingPercentage": 3.46,
+          "uniqueCount": 10,
+          "sampleValues": [
+            "Net Banking",
+            "UPI",
+            "Net Banking"
+          ]
+        },
+        {
+          "name": "order_status",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 51250,
+          "missingCount": 1050,
+          "missingPercentage": 2.01,
+          "uniqueCount": 9,
+          "sampleValues": [
+            "Shipped",
+            "Delivered",
+            "Delivered"
+          ]
+        },
+        {
+          "name": "shipping_days",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 50218,
+          "missingCount": 2082,
+          "missingPercentage": 3.98,
+          "uniqueCount": 18,
+          "sampleValues": [
+            11,
+            14,
+            3
+          ]
+        },
+        {
+          "name": "customer_rating",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 49959,
+          "missingCount": 2341,
+          "missingPercentage": 4.48,
+          "uniqueCount": 9,
+          "sampleValues": [
+            4,
+            5,
+            4
+          ]
+        },
+        {
+          "name": "marketing_channel",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 50738,
+          "missingCount": 1562,
+          "missingPercentage": 2.99,
+          "uniqueCount": 6,
+          "sampleValues": [
+            "Paid Search",
+            "Paid Search",
+            "Organic"
+          ]
+        },
+        {
+          "name": "device_type",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 51253,
+          "missingCount": 1047,
+          "missingPercentage": 2,
+          "uniqueCount": 3,
+          "sampleValues": [
+            "Mobile",
+            "Mobile",
+            "Mobile"
+          ]
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "order_id",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 52300
+        },
+        {
+          "column": "order_date",
+          "missingCount": 521,
+          "missingPercentage": 1,
+          "nonNullCount": 51779
+        },
+        {
+          "column": "customer_id",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 52300
+        },
+        {
+          "column": "customer_age",
+          "missingCount": 1840,
+          "missingPercentage": 3.52,
+          "nonNullCount": 50460
+        },
+        {
+          "column": "gender",
+          "missingCount": 1305,
+          "missingPercentage": 2.5,
+          "nonNullCount": 50995
+        },
+        {
+          "column": "city",
+          "missingCount": 2100,
+          "missingPercentage": 4.02,
+          "nonNullCount": 50200
+        },
+        {
+          "column": "region",
+          "missingCount": 1046,
+          "missingPercentage": 2,
+          "nonNullCount": 51254
+        },
+        {
+          "column": "category",
+          "missingCount": 786,
+          "missingPercentage": 1.5,
+          "nonNullCount": 51514
+        },
+        {
+          "column": "product",
+          "missingCount": 1049,
+          "missingPercentage": 2.01,
+          "nonNullCount": 51251
+        },
+        {
+          "column": "quantity",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 52300
+        },
+        {
+          "column": "unit_price",
+          "missingCount": 1312,
+          "missingPercentage": 2.51,
+          "nonNullCount": 50988
+        },
+        {
+          "column": "discount_pct",
+          "missingCount": 1571,
+          "missingPercentage": 3,
+          "nonNullCount": 50729
+        },
+        {
+          "column": "revenue",
+          "missingCount": 1298,
+          "missingPercentage": 2.48,
+          "nonNullCount": 51002
+        },
+        {
+          "column": "cost",
+          "missingCount": 1574,
+          "missingPercentage": 3.01,
+          "nonNullCount": 50726
+        },
+        {
+          "column": "profit",
+          "missingCount": 1555,
+          "missingPercentage": 2.97,
+          "nonNullCount": 50745
+        },
+        {
+          "column": "payment_method",
+          "missingCount": 1812,
+          "missingPercentage": 3.46,
+          "nonNullCount": 50488
+        },
+        {
+          "column": "order_status",
+          "missingCount": 1050,
+          "missingPercentage": 2.01,
+          "nonNullCount": 51250
+        },
+        {
+          "column": "shipping_days",
+          "missingCount": 2082,
+          "missingPercentage": 3.98,
+          "nonNullCount": 50218
+        },
+        {
+          "column": "customer_rating",
+          "missingCount": 2341,
+          "missingPercentage": 4.48,
+          "nonNullCount": 49959
+        },
+        {
+          "column": "marketing_channel",
+          "missingCount": 1562,
+          "missingPercentage": 2.99,
+          "nonNullCount": 50738
+        },
+        {
+          "column": "device_type",
+          "missingCount": 1047,
+          "missingPercentage": 2,
+          "nonNullCount": 51253
+        }
+      ]
+    },
+    "createdAt": "2026-10-29T10:33:28.398Z",
+    "updatedAt": "2026-10-30T08:43:26.592Z"
+  },
+  {
+    "id": "ds-1793269702761-b2d01435",
+    "name": "sales-100000",
+    "filename": "sales-100000.csv",
+    "filePath": "D:\\MIni Project 3rd Year\\private-uploads\\ds-1793269702761-b2d01435-sales-100000.csv",
+    "fileSize": 5203046,
+    "mimeType": "text/csv",
+    "isSample": false,
+    "status": "ready",
+    "profile": {
+      "rowCount": 100000,
+      "columnCount": 7,
+      "duplicateRows": 0,
+      "healthScore": 100,
+      "typeCounts": {
+        "numeric": 3,
+        "categorical": 3,
+        "datetime": 1,
+        "boolean": 0,
+        "text": 0
+      },
+      "columns": [
+        {
+          "name": "date",
+          "inferredType": "datetime",
+          "pandasType": "object",
+          "nonNullCount": 100000,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 730,
+          "sampleValues": [
+            "2024-01-01",
+            "2024-01-01",
+            "2024-01-01"
+          ]
+        },
+        {
+          "name": "region",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 100000,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 5,
+          "sampleValues": [
+            "North",
+            "South",
+            "East"
+          ]
+        },
+        {
+          "name": "product",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 100000,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 8,
+          "sampleValues": [
+            "Drift Clock",
+            "Drift Clock",
+            "Drift Clock"
+          ]
+        },
+        {
+          "name": "channel",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 100000,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 3,
+          "sampleValues": [
+            "Retail",
+            "Retail",
+            "Retail"
+          ]
+        },
+        {
+          "name": "units",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 100000,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 12,
+          "sampleValues": [
+            3,
+            9,
+            11
+          ]
+        },
+        {
+          "name": "unit_price",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 100000,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 17933,
+          "sampleValues": [
+            41.59,
+            172.39,
+            90.77
+          ]
+        },
+        {
+          "name": "revenue",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 100000,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 59839,
+          "sampleValues": [
+            124.77,
+            1551.51,
+            998.47
+          ]
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "date",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 100000
+        },
+        {
+          "column": "region",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 100000
+        },
+        {
+          "column": "product",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 100000
+        },
+        {
+          "column": "channel",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 100000
+        },
+        {
+          "column": "units",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 100000
+        },
+        {
+          "column": "unit_price",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 100000
+        },
+        {
+          "column": "revenue",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 100000
+        }
+      ]
+    },
+    "createdAt": "2026-10-29T10:28:23.201Z",
+    "updatedAt": "2026-10-29T10:33:20.856Z"
+  },
+  {
+    "id": "ds-clean-1793181542141-2e313c",
+    "name": "insightforge_sample_sales (Cleaned) (Cleaned) (Cleaned)",
+    "filename": "cleaned-cleaned-cleaned-insightforge_sample_sales.csv",
+    "filePath": "D:\\MIni Project 3rd Year\\private-uploads\\ds-clean-1793181518595-5f7fac-cleaned-cleaned-cleaned-insightforge_sample_sales.csv",
+    "fileSize": 1637,
+    "isSample": false,
+    "parentDatasetId": "ds-clean-1793181518595-5f7fac",
+    "cleaningAudit": {
+      "initialRows": 22,
+      "finalRows": 22,
+      "rowsRemoved": 0,
+      "initialCols": 10,
+      "finalCols": 10,
+      "initialMissingValues": 0,
+      "finalMissingValues": 0,
+      "missingValuesResolved": 0,
+      "operationsApplied": [
+        {
+          "type": "drop_duplicates",
+          "status": "applied",
+          "description": "Removed 0 duplicate rows.",
+          "rowsRemoved": 0
+        }
+      ]
+    },
+    "profile": {
+      "rowCount": 22,
+      "columnCount": 10,
+      "duplicateRows": 0,
+      "repeatedIds": 0,
+      "primaryIdColumn": "Order_ID",
+      "healthScore": 100,
+      "typeCounts": {
+        "numeric": 4,
+        "categorical": 5,
+        "datetime": 1,
+        "boolean": 0,
+        "text": 0
+      },
+      "columns": [
+        {
+          "name": "Order_ID",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 22,
+          "sampleValues": [
+            1001,
+            1002,
+            1003
+          ]
+        },
+        {
+          "name": "Order_Date",
+          "inferredType": "datetime",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 14,
+          "sampleValues": [
+            "2026-09-01",
+            "2026-09-01",
+            "2026-09-02"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 4,
+          "sampleValues": [
+            "North",
+            "West",
+            "South"
+          ]
+        },
+        {
+          "name": "Product",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 8,
+          "sampleValues": [
+            "Laptop",
+            "Phone",
+            "Desk Chair"
+          ]
+        },
+        {
+          "name": "Category",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 3,
+          "sampleValues": [
+            "Electronics",
+            "Electronics",
+            "Furniture"
+          ]
+        },
+        {
+          "name": "Quantity",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 9,
+          "sampleValues": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Unit_Price_INR",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 8,
+          "sampleValues": [
+            52000,
+            18000,
+            6500
+          ]
+        },
+        {
+          "name": "Discount_Rate",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 6,
+          "sampleValues": [
+            0.05,
+            0,
+            0.1
+          ]
+        },
+        {
+          "name": "Sales_Channel",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 2,
+          "sampleValues": [
+            "Online",
+            "Store",
+            "Online"
+          ]
+        },
+        {
+          "name": "Sales_Rep",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 22,
+          "sampleValues": [
+            "Aarav",
+            "Diya",
+            "Kabir"
+          ]
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "Order_ID",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Order_Date",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Region",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Product",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Category",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Quantity",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Unit_Price_INR",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Discount_Rate",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Sales_Channel",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Sales_Rep",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        }
+      ]
+    },
+    "status": "ready",
+    "createdAt": "2026-10-28T09:59:02.165Z",
+    "updatedAt": "2026-10-29T11:46:52.719Z"
+  },
+  {
+    "id": "ds-clean-1793181518595-5f7fac",
+    "name": "insightforge_sample_sales (Cleaned) (Cleaned)",
+    "filename": "cleaned-cleaned-insightforge_sample_sales.csv",
+    "filePath": "D:\\MIni Project 3rd Year\\private-uploads\\ds-clean-1793181476280-d3154a-cleaned-cleaned-insightforge_sample_sales.csv",
+    "fileSize": 1637,
+    "isSample": false,
+    "parentDatasetId": "ds-clean-1793181476280-d3154a",
+    "cleaningAudit": {
+      "initialRows": 30,
+      "finalRows": 22,
+      "rowsRemoved": 8,
+      "initialCols": 10,
+      "finalCols": 10,
+      "initialMissingValues": 8,
+      "finalMissingValues": 0,
+      "missingValuesResolved": 8,
+      "operationsApplied": [
+        {
+          "type": "drop_duplicates",
+          "status": "applied",
+          "description": "Removed 0 duplicate rows.",
+          "rowsRemoved": 0
+        },
+        {
+          "type": "drop_missing",
+          "status": "applied",
+          "description": "Dropped 8 rows with missing values in all columns.",
+          "rowsRemoved": 8
+        }
+      ]
+    },
+    "profile": {
+      "rowCount": 22,
+      "columnCount": 10,
+      "duplicateRows": 0,
+      "healthScore": 100,
+      "typeCounts": {
+        "numeric": 4,
+        "categorical": 5,
+        "datetime": 1,
+        "boolean": 0,
+        "text": 0
+      },
+      "columns": [
+        {
+          "name": "Order_ID",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 22,
+          "sampleValues": [
+            1001,
+            1002,
+            1003
+          ]
+        },
+        {
+          "name": "Order_Date",
+          "inferredType": "datetime",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 14,
+          "sampleValues": [
+            "2026-09-01",
+            "2026-09-01",
+            "2026-09-02"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 4,
+          "sampleValues": [
+            "North",
+            "West",
+            "South"
+          ]
+        },
+        {
+          "name": "Product",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 8,
+          "sampleValues": [
+            "Laptop",
+            "Phone",
+            "Desk Chair"
+          ]
+        },
+        {
+          "name": "Category",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 3,
+          "sampleValues": [
+            "Electronics",
+            "Electronics",
+            "Furniture"
+          ]
+        },
+        {
+          "name": "Quantity",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 9,
+          "sampleValues": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Unit_Price_INR",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 8,
+          "sampleValues": [
+            52000,
+            18000,
+            6500
+          ]
+        },
+        {
+          "name": "Discount_Rate",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 6,
+          "sampleValues": [
+            0.05,
+            0,
+            0.1
+          ]
+        },
+        {
+          "name": "Sales_Channel",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 2,
+          "sampleValues": [
+            "Online",
+            "Store",
+            "Online"
+          ]
+        },
+        {
+          "name": "Sales_Rep",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 22,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 22,
+          "sampleValues": [
+            "Aarav",
+            "Diya",
+            "Kabir"
+          ]
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "Order_ID",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Order_Date",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Region",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Product",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Category",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Quantity",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Unit_Price_INR",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Discount_Rate",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Sales_Channel",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        },
+        {
+          "column": "Sales_Rep",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 22
+        }
+      ]
+    },
+    "status": "ready",
+    "createdAt": "2026-10-28T09:58:38.636Z",
+    "updatedAt": "2026-10-28T09:59:20.236Z"
+  },
+  {
+    "id": "ds-clean-1793181476280-d3154a",
+    "name": "insightforge_sample_sales (Cleaned)",
+    "filename": "cleaned-insightforge_sample_sales.csv",
+    "filePath": "D:\\MIni Project 3rd Year\\private-uploads\\ds-1793181121401-9dcdb467-cleaned-insightforge_sample_sales.csv",
+    "fileSize": 2160,
+    "isSample": false,
+    "parentDatasetId": "ds-1793181121401-9dcdb467",
+    "cleaningAudit": {
+      "initialRows": 31,
+      "finalRows": 30,
+      "rowsRemoved": 1,
+      "initialCols": 10,
+      "finalCols": 10,
+      "initialMissingValues": 8,
+      "finalMissingValues": 8,
+      "missingValuesResolved": 0,
+      "operationsApplied": [
+        {
+          "type": "drop_duplicates",
+          "status": "applied",
+          "description": "Removed 1 duplicate rows.",
+          "rowsRemoved": 1
+        }
+      ]
+    },
+    "profile": {
+      "rowCount": 30,
+      "columnCount": 10,
+      "duplicateRows": 0,
+      "healthScore": 98,
+      "typeCounts": {
+        "numeric": 4,
+        "categorical": 5,
+        "datetime": 1,
+        "boolean": 0,
+        "text": 0
+      },
+      "columns": [
+        {
+          "name": "Order_ID",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 30,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 30,
+          "sampleValues": [
+            1001,
+            1002,
+            1003
+          ]
+        },
+        {
+          "name": "Order_Date",
+          "inferredType": "datetime",
+          "pandasType": "object",
+          "nonNullCount": 29,
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "uniqueCount": 15,
+          "sampleValues": [
+            "2026-09-01",
+            "2026-09-01",
+            "2026-09-02"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 29,
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "uniqueCount": 4,
+          "sampleValues": [
+            "North",
+            "West",
+            "South"
+          ]
+        },
+        {
+          "name": "Product",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 30,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 9,
+          "sampleValues": [
+            "Laptop",
+            "Phone",
+            "Desk Chair"
+          ]
+        },
+        {
+          "name": "Category",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 29,
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "uniqueCount": 3,
+          "sampleValues": [
+            "Electronics",
+            "Electronics",
+            "Furniture"
+          ]
+        },
+        {
+          "name": "Quantity",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 29,
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "uniqueCount": 12,
+          "sampleValues": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Unit_Price_INR",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 29,
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "uniqueCount": 9,
+          "sampleValues": [
+            52000,
+            18000,
+            6500
+          ]
+        },
+        {
+          "name": "Discount_Rate",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 30,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 7,
+          "sampleValues": [
+            0.05,
+            0,
+            0.1
+          ]
+        },
+        {
+          "name": "Sales_Channel",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 29,
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "uniqueCount": 2,
+          "sampleValues": [
+            "Online",
+            "Store",
+            "Online"
+          ]
+        },
+        {
+          "name": "Sales_Rep",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 28,
+          "missingCount": 2,
+          "missingPercentage": 6.67,
+          "uniqueCount": 28,
+          "sampleValues": [
+            "Aarav",
+            "Diya",
+            "Kabir"
+          ]
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "Order_ID",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 30
+        },
+        {
+          "column": "Order_Date",
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "nonNullCount": 29
+        },
+        {
+          "column": "Region",
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "nonNullCount": 29
+        },
+        {
+          "column": "Product",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 30
+        },
+        {
+          "column": "Category",
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "nonNullCount": 29
+        },
+        {
+          "column": "Quantity",
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "nonNullCount": 29
+        },
+        {
+          "column": "Unit_Price_INR",
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "nonNullCount": 29
+        },
+        {
+          "column": "Discount_Rate",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 30
+        },
+        {
+          "column": "Sales_Channel",
+          "missingCount": 1,
+          "missingPercentage": 3.33,
+          "nonNullCount": 29
+        },
+        {
+          "column": "Sales_Rep",
+          "missingCount": 2,
+          "missingPercentage": 6.67,
+          "nonNullCount": 28
+        }
+      ]
+    },
+    "status": "ready",
+    "createdAt": "2026-10-28T09:57:56.315Z",
+    "updatedAt": "2026-10-28T09:57:59.613Z"
+  },
+  {
+    "id": "ds-1793181121401-9dcdb467",
+    "name": "insightforge_sample_sales",
+    "filename": "insightforge_sample_sales.csv",
+    "filePath": "D:\\MIni Project 3rd Year\\private-uploads\\ds-1793181121401-9dcdb467-insightforge_sample_sales.csv",
+    "fileSize": 2112,
+    "mimeType": "text/csv",
+    "isSample": false,
+    "status": "ready",
+    "profile": {
+      "rowCount": 31,
+      "columnCount": 10,
+      "duplicateRows": 1,
+      "healthScore": 97,
+      "typeCounts": {
+        "numeric": 4,
+        "categorical": 5,
+        "datetime": 1,
+        "boolean": 0,
+        "text": 0
+      },
+      "columns": [
+        {
+          "name": "Order_ID",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 31,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 30,
+          "sampleValues": [
+            1001,
+            1002,
+            1003
+          ]
+        },
+        {
+          "name": "Order_Date",
+          "inferredType": "datetime",
+          "pandasType": "object",
+          "nonNullCount": 30,
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "uniqueCount": 15,
+          "sampleValues": [
+            "2026-09-01",
+            "2026-09-01",
+            "2026-09-02"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 30,
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "uniqueCount": 4,
+          "sampleValues": [
+            "North",
+            "West",
+            "South"
+          ]
+        },
+        {
+          "name": "Product",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 31,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 9,
+          "sampleValues": [
+            "Laptop",
+            "Phone",
+            "Desk Chair"
+          ]
+        },
+        {
+          "name": "Category",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 30,
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "uniqueCount": 3,
+          "sampleValues": [
+            "Electronics",
+            "Electronics",
+            "Furniture"
+          ]
+        },
+        {
+          "name": "Quantity",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 30,
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "uniqueCount": 12,
+          "sampleValues": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Unit_Price_INR",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 30,
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "uniqueCount": 9,
+          "sampleValues": [
+            52000,
+            18000,
+            6500
+          ]
+        },
+        {
+          "name": "Discount_Rate",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 31,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 7,
+          "sampleValues": [
+            0.05,
+            0,
+            0.1
+          ]
+        },
+        {
+          "name": "Sales_Channel",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 30,
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "uniqueCount": 2,
+          "sampleValues": [
+            "Online",
+            "Store",
+            "Online"
+          ]
+        },
+        {
+          "name": "Sales_Rep",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 29,
+          "missingCount": 2,
+          "missingPercentage": 6.45,
+          "uniqueCount": 28,
+          "sampleValues": [
+            "Aarav",
+            "Diya",
+            "Kabir"
+          ]
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "Order_ID",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 31
+        },
+        {
+          "column": "Order_Date",
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "nonNullCount": 30
+        },
+        {
+          "column": "Region",
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "nonNullCount": 30
+        },
+        {
+          "column": "Product",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 31
+        },
+        {
+          "column": "Category",
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "nonNullCount": 30
+        },
+        {
+          "column": "Quantity",
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "nonNullCount": 30
+        },
+        {
+          "column": "Unit_Price_INR",
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "nonNullCount": 30
+        },
+        {
+          "column": "Discount_Rate",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 31
+        },
+        {
+          "column": "Sales_Channel",
+          "missingCount": 1,
+          "missingPercentage": 3.23,
+          "nonNullCount": 30
+        },
+        {
+          "column": "Sales_Rep",
+          "missingCount": 2,
+          "missingPercentage": 6.45,
+          "nonNullCount": 29
+        }
+      ]
+    },
+    "createdAt": "2026-10-28T09:52:01.435Z",
+    "updatedAt": "2026-10-29T10:31:42.964Z"
+  },
+  {
+    "id": "sample-hr-03",
+    "name": "Employee Performance & Salaries",
+    "filename": "employee_performance.csv",
+    "filePath": "D:\\MIni Project 3rd Year\\sample-data\\employee_performance.csv",
+    "fileSize": 1094,
+    "isSample": true,
+    "status": "ready",
+    "description": "HR records with departments, roles, years of experience, performance scores, and salary.",
+    "createdAt": "2026-10-28T09:21:55.505Z",
+    "updatedAt": "2026-10-28T09:48:28.040Z",
+    "profile": {
+      "rowCount": 15,
+      "columnCount": 9,
+      "duplicateRows": 0,
+      "healthScore": 100,
+      "typeCounts": {
+        "numeric": 5,
+        "categorical": 4,
+        "datetime": 0,
+        "boolean": 0,
+        "text": 0
+      },
+      "columns": [
+        {
+          "name": "EmpID",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 15,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 15,
+          "sampleValues": [
+            "EMP-01",
+            "EMP-02",
+            "EMP-03"
+          ]
+        },
+        {
+          "name": "Name",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 15,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 15,
+          "sampleValues": [
+            "Aarav Sharma",
+            "Diya Patel",
+            "Rohan Verma"
+          ]
+        },
+        {
+          "name": "Department",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 15,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 8,
+          "sampleValues": [
+            "Engineering",
+            "Product",
+            "Sales"
+          ]
+        },
+        {
+          "name": "Role",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 15,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 15,
+          "sampleValues": [
+            "Senior Software Engineer",
+            "Product Manager",
+            "Account Executive"
+          ]
+        },
+        {
+          "name": "YearsExperience",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 15,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 7,
+          "sampleValues": [
+            6,
+            5,
+            3
+          ]
+        },
+        {
+          "name": "MonthlySalary",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 15,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 15,
+          "sampleValues": [
+            92000,
+            88000,
+            65000
+          ]
+        },
+        {
+          "name": "ProjectsCompleted",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 15,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 15,
+          "sampleValues": [
+            14,
+            11,
+            18
+          ]
+        },
+        {
+          "name": "PerformanceScore",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 15,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 12,
+          "sampleValues": [
+            4.7,
+            4.5,
+            4.2
+          ]
+        },
+        {
+          "name": "RemoteWorkPercentage",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 15,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 9,
+          "sampleValues": [
+            60,
+            40,
+            20
+          ]
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "EmpID",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 15
+        },
+        {
+          "column": "Name",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 15
+        },
+        {
+          "column": "Department",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 15
+        },
+        {
+          "column": "Role",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 15
+        },
+        {
+          "column": "YearsExperience",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 15
+        },
+        {
+          "column": "MonthlySalary",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 15
+        },
+        {
+          "column": "ProjectsCompleted",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 15
+        },
+        {
+          "column": "PerformanceScore",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 15
+        },
+        {
+          "column": "RemoteWorkPercentage",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "sample-churn-02",
+    "name": "Telecom Customer Churn",
+    "filename": "customer_churn_sample.csv",
+    "filePath": "D:\\MIni Project 3rd Year\\sample-data\\customer_churn_sample.csv",
+    "fileSize": 1319,
+    "isSample": true,
+    "status": "ready",
+    "description": "Subscriber contract types, monthly charges, tenure, and churn status.",
+    "createdAt": "2026-10-28T09:21:55.501Z",
+    "updatedAt": "2026-10-28T09:51:07.672Z",
+    "profile": {
+      "rowCount": 20,
+      "columnCount": 10,
+      "duplicateRows": 0,
+      "healthScore": 100,
+      "typeCounts": {
+        "numeric": 5,
+        "categorical": 5,
+        "datetime": 0,
+        "boolean": 0,
+        "text": 0
+      },
+      "columns": [
+        {
+          "name": "CustomerID",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 20,
+          "sampleValues": [
+            "CUST-101",
+            "CUST-102",
+            "CUST-103"
+          ]
+        },
+        {
+          "name": "Gender",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 2,
+          "sampleValues": [
+            "Female",
+            "Male",
+            "Male"
+          ]
+        },
+        {
+          "name": "SeniorCitizen",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 2,
+          "sampleValues": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "TenureMonths",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 20,
+          "sampleValues": [
+            12,
+            34,
+            2
+          ]
+        },
+        {
+          "name": "ContractType",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 3,
+          "sampleValues": [
+            "Month-to-Month",
+            "One Year",
+            "Month-to-Month"
+          ]
+        },
+        {
+          "name": "InternetService",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 2,
+          "sampleValues": [
+            "Fiber Optic",
+            "DSL",
+            "Fiber Optic"
+          ]
+        },
+        {
+          "name": "MonthlyCharges",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 20,
+          "sampleValues": [
+            85.5,
+            55.2,
+            92.4
+          ]
+        },
+        {
+          "name": "TotalCharges",
+          "inferredType": "numeric",
+          "pandasType": "float64",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 20,
+          "sampleValues": [
+            1026,
+            1876.8,
+            184.8
+          ]
+        },
+        {
+          "name": "Churn",
+          "inferredType": "categorical",
+          "pandasType": "object",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 2,
+          "sampleValues": [
+            "Yes",
+            "No",
+            "Yes"
+          ]
+        },
+        {
+          "name": "SupportTickets",
+          "inferredType": "numeric",
+          "pandasType": "int64",
+          "nonNullCount": 20,
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "uniqueCount": 6,
+          "sampleValues": [
+            3,
+            1,
+            5
+          ]
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "CustomerID",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        },
+        {
+          "column": "Gender",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        },
+        {
+          "column": "SeniorCitizen",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        },
+        {
+          "column": "TenureMonths",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        },
+        {
+          "column": "ContractType",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        },
+        {
+          "column": "InternetService",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        },
+        {
+          "column": "MonthlyCharges",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        },
+        {
+          "column": "TotalCharges",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        },
+        {
+          "column": "Churn",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        },
+        {
+          "column": "SupportTickets",
+          "missingCount": 0,
+          "missingPercentage": 0,
+          "nonNullCount": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "sample-sales-01",
+    "name": "Retail Sales & Transactions",
+    "filename": "sales_sample.csv",
+    "filePath": "D:\\MIni Project 3rd Year\\sample-data\\sales_sample.csv",
+    "fileSize": 2170,
+    "isSample": true,
+    "status": "ready",
+    "description": "Retail sales across North, South, East, West with unit prices, discounts, and payment methods.",
+    "createdAt": "2026-10-28T09:21:55.498Z",
+    "updatedAt": "2026-10-28T09:21:55.498Z"
+  }
+]

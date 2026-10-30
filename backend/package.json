@@ -1,0 +1,25 @@
+{
+  "name": "insightforge-backend",
+  "version": "2.0.0",
+  "description": "InsightForge AI Express Backend with Multi-Provider AI and Data Processing Orchestration",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/tests/*.test.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}

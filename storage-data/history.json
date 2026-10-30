@@ -1,0 +1,200 @@
+[
+  {
+    "type": "ai_query",
+    "datasetId": "ds-1793270007502-9fbf0e1f",
+    "datasetName": "InsightForge_Dirty_Ecommerce_Stress_Test",
+    "question": "kaha se ho and kisne banaya tumko",
+    "answer": "I am a large language model, trained by Google.",
+    "provider": "gemini",
+    "toolExecuted": null,
+    "hasChart": false,
+    "id": "hist-1793349969887-qhknd",
+    "timestamp": "2026-10-30T08:46:09.887Z"
+  },
+  {
+    "type": "ai_query",
+    "datasetId": "ds-1793270007502-9fbf0e1f",
+    "datasetName": "InsightForge_Dirty_Ecommerce_Stress_Test",
+    "question": "hello",
+    "answer": "Hello! I am InsightForge AI, your data analyst copilot. I can help you analyze the \"InsightForge_Dirty_Ecommerce_Stress_Test.csv\" dataset. What would you like to know about this dataset? For example, you can ask me to:\n\n*   Summarize the dataset\n*   Calculate KPIs\n*   Find top categories\n*   Detect anomalies\n*   Compare groups\n*   Get chart data\n*   Analyze trends\n*   Check for correlations\n*   Identify missing values or duplicates",
+    "provider": "gemini",
+    "toolExecuted": null,
+    "hasChart": false,
+    "id": "hist-1793349952619-j5phs",
+    "timestamp": "2026-10-30T08:45:52.619Z"
+  },
+  {
+    "type": "ai_query",
+    "datasetId": "ds-1793270007502-9fbf0e1f",
+    "datasetName": "InsightForge_Dirty_Ecommerce_Stress_Test",
+    "question": "What is the total revenue in this dataset?",
+    "answer": "The total revenue generated across all orders in this dataset is $34,909,818.16. This figure represents the cumulative sales value before accounting for costs or profits.",
+    "provider": "gemini",
+    "toolExecuted": "calculate_kpi",
+    "hasChart": false,
+    "id": "hist-1793349581839-cb6dm",
+    "timestamp": "2026-10-30T08:39:41.839Z"
+  },
+  {
+    "type": "ai_query",
+    "datasetId": "ds-1793270007502-9fbf0e1f",
+    "datasetName": "InsightForge_Dirty_Ecommerce_Stress_Test",
+    "question": "What is the total revenue in this dataset?",
+    "answer": "I apologize, but the calculation for the total revenue returned 'undefined'. This indicates that the sum could not be computed for the 'revenue' column with the current data or tool execution. Please ensure the 'revenue' column contains valid numerical data, or consider re-running the calculation.",
+    "provider": "gemini",
+    "toolExecuted": "calculate_kpi",
+    "hasChart": false,
+    "id": "hist-1793349432617-3il3y",
+    "timestamp": "2026-10-30T08:37:12.617Z"
+  },
+  {
+    "type": "ai_query",
+    "datasetId": "ds-1793270007502-9fbf0e1f",
+    "datasetName": "InsightForge_Dirty_Ecommerce_Stress_Test",
+    "question": "hello",
+    "answer": "Hello! I am InsightForge AI, an expert, objective data analyst copilot. I am ready to help you analyze your dataset: \"InsightForge_Dirty_Ecommerce_Stress_Test.csv\".\n\nWhat would you like to know about the data today? For example, you could ask:\n* \"Summarize the dataset.\"\n* \"What are the key performance indicators?\"\n* \"Show me the top 10 products.\"\n* \"Are there any anomalies in the revenue?\"\n* \"Compare profit by region.\"\n* \"What are the trends over time?\"",
+    "provider": "gemini",
+    "toolExecuted": null,
+    "hasChart": false,
+    "id": "hist-1793349394680-1hbt5",
+    "timestamp": "2026-10-30T08:36:34.680Z"
+  },
+  {
+    "type": "ai_query",
+    "datasetId": "ds-1793270007502-9fbf0e1f",
+    "datasetName": "InsightForge_Dirty_Ecommerce_Stress_Test",
+    "question": "hello",
+    "answer": "👋 You are running InsightForge AI in **Demo Assistant Mode** (no live external LLM API key is configured).\n\nYou can test live dataset calculations right now by asking:\n- *'Summarize the dataset profile and missing values'*\n- *'What are the top categories in this dataset?'*\n- *'Calculate the total or average numeric metrics'*\n- *'Detect outliers and anomalies using IQR'*\n- *'Show me a chart breakdown'* \n\nTo connect a live LLM, simply add `GEMINI_API_KEY` or `GROQ_API_KEY` to your `.env` file!",
+    "provider": "demo",
+    "toolExecuted": null,
+    "hasChart": false,
+    "id": "hist-1793270200173-8yxe8",
+    "timestamp": "2026-10-29T10:36:40.173Z"
+  },
+  {
+    "type": "ai_query",
+    "datasetId": "ds-clean-1793181542141-2e313c",
+    "datasetName": "insightforge_sample_sales (Cleaned) (Cleaned) (Cleaned)",
+    "question": "hello",
+    "answer": "👋 You are running InsightForge AI in **Demo Assistant Mode** (no live external LLM API key is configured).\n\nYou can test live dataset calculations right now by asking:\n- *'Summarize the dataset profile and missing values'*\n- *'What are the top categories in this dataset?'*\n- *'Calculate the total or average numeric metrics'*\n- *'Detect outliers and anomalies using IQR'*\n- *'Show me a chart breakdown'* \n\nTo connect a live LLM, simply add `GEMINI_API_KEY` or `GROQ_API_KEY` to your `.env` file!",
+    "provider": "demo",
+    "toolExecuted": null,
+    "hasChart": false,
+    "id": "hist-1793269481872-052xg",
+    "timestamp": "2026-10-29T10:24:41.872Z"
+  },
+  {
+    "type": "ai_query",
+    "datasetId": "ds-clean-1793181542141-2e313c",
+    "datasetName": "insightforge_sample_sales (Cleaned) (Cleaned) (Cleaned)",
+    "question": "hello",
+    "answer": "👋 You are running InsightForge AI in **Demo Assistant Mode** (no live external LLM API key is configured).\n\nYou can test live dataset calculations right now by asking:\n- *'Summarize the dataset profile and missing values'*\n- *'What are the top categories in this dataset?'*\n- *'Calculate the total or average numeric metrics'*\n- *'Detect outliers and anomalies using IQR'*\n- *'Show me a chart breakdown'* \n\nTo connect a live LLM, simply add `GEMINI_API_KEY` or `GROQ_API_KEY` to your `.env` file!",
+    "provider": "demo",
+    "toolExecuted": null,
+    "hasChart": false,
+    "id": "hist-1793267043823-8kshl",
+    "timestamp": "2026-10-29T09:44:03.824Z"
+  },
+  {
+    "type": "report",
+    "datasetId": "ds-clean-1793181518595-5f7fac",
+    "datasetName": "insightforge_sample_sales (Cleaned) (Cleaned)",
+    "title": "Generated report \"Comprehensive Analytics Report: insightforge_sample_sales (Cleaned) (Cleaned)\"",
+    "reportId": "rep-1793181560267-686ef3",
+    "id": "hist-1793181560320-glfhb",
+    "timestamp": "2026-10-28T09:59:20.320Z"
+  },
+  {
+    "type": "cleaning",
+    "datasetId": "ds-clean-1793181518595-5f7fac",
+    "datasetName": "insightforge_sample_sales (Cleaned) (Cleaned)",
+    "title": "Cleaned dataset \"insightforge_sample_sales (Cleaned) (Cleaned)\"",
+    "details": {
+      "initialRows": 22,
+      "finalRows": 22,
+      "rowsRemoved": 0,
+      "initialCols": 10,
+      "finalCols": 10,
+      "initialMissingValues": 0,
+      "finalMissingValues": 0,
+      "missingValuesResolved": 0,
+      "operationsApplied": [
+        {
+          "type": "drop_duplicates",
+          "status": "applied",
+          "description": "Removed 0 duplicate rows.",
+          "rowsRemoved": 0
+        }
+      ]
+    },
+    "id": "hist-1793181542173-u975g",
+    "timestamp": "2026-10-28T09:59:02.173Z"
+  },
+  {
+    "type": "cleaning",
+    "datasetId": "ds-clean-1793181476280-d3154a",
+    "datasetName": "insightforge_sample_sales (Cleaned)",
+    "title": "Cleaned dataset \"insightforge_sample_sales (Cleaned)\"",
+    "details": {
+      "initialRows": 30,
+      "finalRows": 22,
+      "rowsRemoved": 8,
+      "initialCols": 10,
+      "finalCols": 10,
+      "initialMissingValues": 8,
+      "finalMissingValues": 0,
+      "missingValuesResolved": 8,
+      "operationsApplied": [
+        {
+          "type": "drop_duplicates",
+          "status": "applied",
+          "description": "Removed 0 duplicate rows.",
+          "rowsRemoved": 0
+        },
+        {
+          "type": "drop_missing",
+          "status": "applied",
+          "description": "Dropped 8 rows with missing values in all columns.",
+          "rowsRemoved": 8
+        }
+      ]
+    },
+    "id": "hist-1793181518640-qrpsm",
+    "timestamp": "2026-10-28T09:58:38.640Z"
+  },
+  {
+    "type": "cleaning",
+    "datasetId": "ds-1793181121401-9dcdb467",
+    "datasetName": "insightforge_sample_sales",
+    "title": "Cleaned dataset \"insightforge_sample_sales\"",
+    "details": {
+      "initialRows": 31,
+      "finalRows": 30,
+      "rowsRemoved": 1,
+      "initialCols": 10,
+      "finalCols": 10,
+      "initialMissingValues": 8,
+      "finalMissingValues": 8,
+      "missingValuesResolved": 0,
+      "operationsApplied": [
+        {
+          "type": "drop_duplicates",
+          "status": "applied",
+          "description": "Removed 1 duplicate rows.",
+          "rowsRemoved": 1
+        }
+      ]
+    },
+    "id": "hist-1793181476318-rbug9",
+    "timestamp": "2026-10-28T09:57:56.318Z"
+  },
+  {
+    "type": "report",
+    "datasetId": "sample-churn-02",
+    "datasetName": "Telecom Customer Churn",
+    "title": "Generated report \"Comprehensive Analytics Report: Telecom Customer Churn\"",
+    "reportId": "rep-1793179768026-b0a022",
+    "id": "hist-1793179768073-bh8wn",
+    "timestamp": "2026-10-28T09:29:28.073Z"
+  }
+]

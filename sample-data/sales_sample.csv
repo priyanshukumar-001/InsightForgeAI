@@ -1,0 +1,26 @@
+TransactionID,Date,Region,Category,Product,Quantity,UnitPrice,TotalAmount,Discount,PaymentMethod
+TX1001,2025-01-05,North,Electronics,Wireless Headphones,2,89.99,179.98,0.10,Credit Card
+TX1002,2025-01-06,West,Home Appliances,Air Fryer,1,129.50,129.50,0.05,PayPal
+TX1003,2025-01-08,East,Office Supplies,Ergonomic Chair,3,199.00,597.00,0.15,Bank Transfer
+TX1004,2025-01-11,South,Electronics,Smart Watch,1,249.99,249.99,0.00,Credit Card
+TX1005,2025-01-14,North,Home Appliances,Blender,2,45.00,90.00,0.00,Debit Card
+TX1006,2025-01-16,West,Electronics,Bluetooth Speaker,4,39.99,159.96,0.10,Credit Card
+TX1007,2025-01-20,East,Office Supplies,Standing Desk,1,349.00,349.00,0.20,Credit Card
+TX1008,2025-01-22,South,Home Appliances,Coffee Maker,2,85.00,170.00,0.05,Credit Card
+TX1009,2025-01-25,North,Electronics,4K Monitor,1,299.99,299.99,0.12,Credit Card
+TX1010,2025-01-27,West,Office Supplies,Mechanical Keyboard,3,75.00,225.00,0.00,Debit Card
+TX1011,2025-02-01,East,Electronics,USB-C Hub,5,29.99,149.95,0.05,PayPal
+TX1012,2025-02-04,South,Home Appliances,Toaster,1,35.00,35.00,0.00,Cash
+TX1013,2025-02-07,North,Office Supplies,Noise Cancelling Headset,2,159.00,318.00,0.15,Credit Card
+TX1014,2025-02-10,West,Electronics,Webcam HD,3,69.99,209.97,0.10,PayPal
+TX1015,2025-02-14,East,Home Appliances,Robot Vacuum,1,399.00,399.00,0.20,Credit Card
+TX1016,2025-02-18,South,Office Supplies,Filing Cabinet,2,110.00,220.00,0.00,Debit Card
+TX1017,2025-02-21,North,Electronics,Wireless Mouse,6,24.50,147.00,0.05,Credit Card
+TX1018,2025-02-24,West,Home Appliances,Microwave Oven,1,180.00,180.00,0.10,Credit Card
+TX1019,2025-02-27,East,Office Supplies,Desk Lamp LED,4,32.00,128.00,0.00,PayPal
+TX1020,2025-03-02,South,Electronics,Tablet Stand,3,22.00,66.00,0.00,Debit Card
+TX1021,2025-03-05,North,Home Appliances,Electric Kettle,2,42.00,84.00,0.05,Credit Card
+TX1022,2025-03-08,West,Office Supplies,Paper Shredder,1,95.00,95.00,0.00,Credit Card
+TX1023,2025-03-12,East,Electronics,External SSD 1TB,2,119.99,239.98,0.10,Credit Card
+TX1024,2025-03-15,South,Home Appliances,Air Purifier,1,210.00,210.00,0.15,PayPal
+TX1025,2025-03-19,North,Office Supplies,Notebook Pack,10,12.50,125.00,0.00,Cash

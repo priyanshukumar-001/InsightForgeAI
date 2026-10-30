@@ -1,0 +1,117 @@
+================================================================================
+InsightForge AI — Step-by-Step Project Run Guide
+================================================================================
+
+Welcome to InsightForge AI! Follow these simple instructions to launch the entire
+application (Frontend, Backend Gateway, and Python Data Engine).
+
+--------------------------------------------------------------------------------
+1. PREREQUISITES & VERSION CHECKS
+--------------------------------------------------------------------------------
+Open PowerShell or your terminal and confirm your installed tools:
+
+  node -v          # Should output v18.0.0 or higher (Tested on v26.3.1)
+  npm -v           # Should output 9.0.0 or higher (Tested on 11.16.0)
+  py -3.13 --version # Should output Python 3.13.x
+
+--------------------------------------------------------------------------------
+2. ENVIRONMENT SETUP
+--------------------------------------------------------------------------------
+In the project root directory (d:\MIni Project 3rd Year):
+
+Create your local .env file from the template:
+  PowerShell:
+    Copy-Item .env.example .env
+
+  Command Prompt:
+    copy .env.example .env
+
+Note: You DO NOT need to add any API keys right now! InsightForge AI includes
+a built-in Grounded Demo Copilot that works immediately with zero configuration.
+
+--------------------------------------------------------------------------------
+3. STARTING THE THREE SERVICES
+--------------------------------------------------------------------------------
+Open THREE separate terminal tabs or windows in "d:\MIni Project 3rd Year":
+
+--------------------------------------------------
+TAB 1: Python Data Analytics Engine (FastAPI)
+--------------------------------------------------
+Run the following command:
+  py -3.13 -m uvicorn app.main:app --port 8000 --app-dir data-service --reload
+
+Expected output:
+  INFO: Uvicorn running on http://127.0.0.1:8000
+Health Check URL:
+  http://127.0.0.1:8000/health
+
+--------------------------------------------------
+TAB 2: Express Node.js Backend Gateway
+--------------------------------------------------
+Run the following command:
+  npm run start:backend
+
+Expected output:
+  🚀 InsightForge AI Backend Server running
+  📡 URL: http://localhost:5000
+  🤖 Configured AI Provider: gemini (or demo)
+Health Check URL:
+  http://localhost:5000/api/health
+
+--------------------------------------------------
+TAB 3: React + Vite Frontend
+--------------------------------------------------
+Run the following command:
+  npm run start:frontend
+
+Expected output:
+  VITE v5.4.10 ready in ... ms
+  ➜ Local: http://localhost:5173/
+
+--------------------------------------------------------------------------------
+4. ACCESSING THE APPLICATION
+--------------------------------------------------------------------------------
+Open your web browser and navigate to:
+  http://localhost:5173
+
+1. Landing Page: Click "Analyze Your Data" or "Explore Sample Datasets".
+2. Workspace Dashboard: View real KPIs and pre-loaded sample datasets.
+3. Dataset View: Inspect paginated preview table, data health, missing values,
+   and descriptive statistics.
+4. AI Assistant: Ask questions such as:
+   - "What are the top categories in this dataset?"
+   - "Summarize dataset profile and data health"
+   - "Detect outliers and anomalies using IQR"
+   All answers are strictly verified with mathematical tool calls!
+5. Data Cleaning: Click "Clean Data" to drop duplicate rows or impute nulls.
+6. Reports: Click "Generate Report" and download publication-ready HTML/Markdown.
+
+--------------------------------------------------------------------------------
+5. RUNNING TESTS & PRODUCTION BUILD
+--------------------------------------------------------------------------------
+From the project root directory:
+
+Run all test suites (Backend + Python Data Service + Frontend Build):
+  npm test
+
+Run individual suites:
+  npm run test:backend   # Tests Express routes & AI tool definitions
+  npm run test:data      # Tests 12 Pandas profiling & statistical calculations
+  npm run test:frontend  # Verifies TypeScript typing & compiles Vite production bundle
+
+--------------------------------------------------------------------------------
+6. TROUBLESHOOTING & COMMON FIXES
+--------------------------------------------------------------------------------
+Q: Python shows "No module named uvicorn" or "No module named pandas"?
+A: Ensure you launch with `py -3.13` which contains the pre-compiled packages.
+
+Q: Port 5000 or 5173 is already in use?
+A: You can change the port in `.env` (e.g. `PORT=5001`) or restart your terminal.
+
+Q: Can I connect my real Google Gemini or Groq API key?
+A: Yes! Simply open your `.env` file, set:
+     AI_PROVIDER=gemini
+     GEMINI_API_KEY=your_key_here
+   and restart Tab 2 (Backend).
+
+================================================================================

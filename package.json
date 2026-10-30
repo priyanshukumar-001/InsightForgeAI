@@ -1,0 +1,23 @@
+{
+  "name": "insightforge-ai-monorepo",
+  "version": "2.0.0",
+  "description": "InsightForge AI — Intelligent Data Analytics Copilot (Monorepo)",
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend run dev",
+    "start:data": "py -3.13 -m uvicorn app.main:app --port 8000 --app-dir data-service --reload",
+    "test:backend": "npm --prefix backend test",
+    "test:data": "py -3.13 data-service/run_tests.py",
+    "test:frontend": "npm --prefix frontend run build",
+    "test": "npm run test:backend && npm run test:data && npm run test:frontend",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "data-analytics",
+    "ai-copilot",
+    "fastapi",
+    "react",
+    "express",
+    "pandas"
+  ]
+}

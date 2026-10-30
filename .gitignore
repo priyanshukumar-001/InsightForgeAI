@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+__pycache__/
+*/__pycache__/
+*.pyc
+.venv/
+*/.venv/
+venv/
+ENV/
+
+# Environment & Secrets (Never commit credentials)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Builds
+dist/
+*/dist/
+build/
+*/build/
+*.egg-info/
+
+# User uploads & ephemeral stores
+storage-data/generated-reports/
+*.tmp
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,16 @@
+EmpID,Name,Department,Role,YearsExperience,MonthlySalary,ProjectsCompleted,PerformanceScore,RemoteWorkPercentage
+EMP-01,Aarav Sharma,Engineering,Senior Software Engineer,6,92000,14,4.7,60
+EMP-02,Diya Patel,Product,Product Manager,5,88000,11,4.5,40
+EMP-03,Rohan Verma,Sales,Account Executive,3,65000,18,4.2,20
+EMP-04,Sneha Iyer,Marketing,Growth Specialist,4,69000,13,4.6,80
+EMP-05,Vikram Malhotra,Engineering,DevOps Lead,8,110000,19,4.9,100
+EMP-06,Ananya Roy,Design,UI/UX Designer,3,62000,9,4.3,50
+EMP-07,Kunal Saxena,Finance,Financial Analyst,4,71000,8,4.1,20
+EMP-08,Pooja Nair,Human Resources,HR Business Partner,5,67000,10,4.4,40
+EMP-09,Aditya Joshi,Engineering,Fullstack Developer,2,58000,7,3.9,70
+EMP-10,Meera Kapoor,Sales,Sales Director,9,125000,24,4.8,30
+EMP-11,Kabir Das,Marketing,Content Strategist,3,54000,12,4.0,90
+EMP-12,Tanvi Deshmukh,Engineering,Data Scientist,4,84000,15,4.7,80
+EMP-13,Nikhil Kulkarni,Support,Customer Success Lead,5,61000,22,4.3,50
+EMP-14,Isha Rao,Product,Associate Product Manager,2,55000,6,3.8,40
+EMP-15,Arjun Sen,Engineering,Backend Engineer,5,82000,16,4.6,60

@@ -1,0 +1,21 @@
+CustomerID,Gender,SeniorCitizen,TenureMonths,ContractType,InternetService,MonthlyCharges,TotalCharges,Churn,SupportTickets
+CUST-101,Female,0,12,Month-to-Month,Fiber Optic,85.50,1026.00,Yes,3
+CUST-102,Male,0,34,One Year,DSL,55.20,1876.80,No,1
+CUST-103,Male,1,2,Month-to-Month,Fiber Optic,92.40,184.80,Yes,5
+CUST-104,Female,0,48,Two Year,DSL,45.00,2160.00,No,0
+CUST-105,Female,0,8,Month-to-Month,Fiber Optic,79.80,638.40,Yes,2
+CUST-106,Male,0,60,Two Year,Fiber Optic,105.10,6306.00,No,1
+CUST-107,Female,1,18,Month-to-Month,DSL,40.15,722.70,No,2
+CUST-108,Male,0,4,Month-to-Month,Fiber Optic,88.75,355.00,Yes,4
+CUST-109,Female,0,24,One Year,DSL,50.30,1207.20,No,0
+CUST-110,Male,0,36,Two Year,Fiber Optic,99.90,3596.40,No,1
+CUST-111,Female,0,1,Month-to-Month,Fiber Optic,75.00,75.00,Yes,3
+CUST-112,Male,1,15,Month-to-Month,DSL,60.25,903.75,No,2
+CUST-113,Female,0,52,Two Year,Fiber Optic,110.00,5720.00,No,0
+CUST-114,Male,0,7,Month-to-Month,Fiber Optic,82.40,576.80,Yes,3
+CUST-115,Female,0,29,One Year,DSL,64.80,1879.20,No,1
+CUST-116,Male,0,3,Month-to-Month,Fiber Optic,95.00,285.00,Yes,4
+CUST-117,Female,1,41,One Year,Fiber Optic,101.50,4161.50,No,1
+CUST-118,Male,0,19,Month-to-Month,DSL,48.90,929.10,No,2
+CUST-119,Female,0,65,Two Year,Fiber Optic,115.30,7494.50,No,0
+CUST-120,Male,0,9,Month-to-Month,DSL,53.20,478.80,Yes,3
