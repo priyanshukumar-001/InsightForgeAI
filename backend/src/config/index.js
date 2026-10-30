@@ -7,12 +7,11 @@ const path = require('path');
 const dns = require('dns');
 const dotenv = require('dotenv');
 
-// Prioritize IPv4 on Windows to prevent undici/fetch timeouts on dual-stack networks
 if (typeof dns.setDefaultResultOrder === 'function') {
   dns.setDefaultResultOrder('ipv4first');
 }
 
-// Load .env from root directory (3 levels up) or backend directory
+
 const rootDir = path.resolve(__dirname, '../../../');
 dotenv.config({ path: path.join(rootDir, '.env') });
 dotenv.config({ path: path.resolve(__dirname, '../../.env') });
